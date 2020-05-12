@@ -1,0 +1,11 @@
+Username : G7LS
+Password : G7lasalle
+Mail : ls29167
+
+
+
+Web :
+    http://materializecss.com
+
+Passwd Strength:
+    http://jsfiddle.net/jquery4u/mmXV5/

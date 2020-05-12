@@ -1,0 +1,103 @@
+
+/* DEEP ORANGE (LIGHT): #ff7043 */
+
+body {
+    /*background: url("../img/bg_image_blurred.jpg") no-repeat center center fixed;*/
+    background-size: cover;
+}
+
+.brand-logo{
+    margin-left: 5%;
+}
+
+/* label NO focus color */
+.input-field input[type=text] + label {
+    color: #ff7043;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #29b6f6;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+.input-field input[type=password]:focus + label {
+    color: #29b6f6;
+}
+
+
+.input-field input[type=email]:focus + label {
+    color: #29b6f6;
+}
+
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #29b6f6;
+    box-shadow: 0 1px 0 0 #29b6f6;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #29b6f6;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+span.badge.coin{
+    font-weight:300;
+    font-size:0.8rem;
+    color: #37474f;
+    background-color: #ffeb3b;
+    border-radius:2px
+}
+
+span.badge.coin:after{
+    content:" coins"
+}
+
+.picker__weekdate-display{
+    color: #0089ec;
+}
+
+
+#product_img{
+    width: 80%;
+}
+
+#preview_producte{
+    padding: 3%;
+}
+
+#factor_si{
+    color: green;
+
+}
+#factor_no{
+    color: red;
+}
+
+.card-small {
+    width:400px;
+    left: 35%;
+}
+
+h3 .light-blue-text{
+    margin-top:20px;
+    color:red;
+}
+
+
